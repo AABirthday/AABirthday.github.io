@@ -738,12 +738,14 @@ a /*Para quitarle la decoracion a los enlaces y el cuadro que aparecia*/
   position: relative;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .container .tarjeta {
   position: relative;
   cursor: pointer;
-  left: -200px;/*MARGEN IZQUIERDO*/
+  left: -140px;/*MARGEN IZQUIERDO*/
+
 }
 
 .container .tarjeta .face {
@@ -801,7 +803,7 @@ a /*Para quitarle la decoracion a los enlaces y el cuadro que aparecia*/
 }
 
 .container .tarjeta .face.face1 .contenido img {
-  max-width: 100px;
+  max-width: 100px;/*Tamaño del icono*/
 }
 
 .container .tarjeta .face.face1 .contenido h3 {
